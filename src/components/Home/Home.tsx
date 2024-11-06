@@ -21,8 +21,8 @@ const Home = ({ handleScrollTo }: HomeProps) => {
         <ul className={classes.homeList}>
           <li onClick={() => handleScrollTo("about")}>About</li>
           <span className={classes.listDivider}></span>
-          <li onClick={() => handleScrollTo("portfolio")}>Portfolio</li>
-          <span className={classes.listDivider}></span>
+          {/* <li onClick={() => handleScrollTo("portfolio")}>Portfolio</li>
+          <span className={classes.listDivider}></span> */}
           <li onClick={() => handleScrollTo("contact")}>Contact</li>
         </ul>
         <ul className={classes.homeSocial}>
