@@ -1,0 +1,46 @@
+.about {
+  padding: 5rem 10rem;
+  display: grid;
+
+  background-color: var(--lineslight);
+  min-height: 100vh;
+  color: var(--linesDark);
+}
+.about h1 {
+  text-align: center;
+}
+
+.aboutSection {
+  display: flex;
+  justify-content: center;
+}
+
+.resume {
+  flex: 1 1 66%;
+}
+
+h1,
+p {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.aboutMe {
+  display: flex;
+  justify-content: center;
+  margin: 5rem 2rem 0rem 0rem;
+  margin-left: 2rem;
+}
+
+.images {
+  min-width: 40rem;
+  min-height: 40rem;
+}
+
+.carouselImg {
+  display: block;
+  max-width: 60rem;
+  max-height: 55rem;
+  width: auto;
+  height: auto;
+  margin-right: 2rem;
+}

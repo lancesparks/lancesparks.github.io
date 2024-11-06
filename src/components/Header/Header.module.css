@@ -1,0 +1,93 @@
+.headerContainer {
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  background-color: var(--black);
+  margin-top: 2rem;
+  box-shadow: var(--violet) 0px 8px 24px;
+  border-radius: clamp(0.75rem, 2vw, 1.5rem);
+}
+
+.header_logo {
+  height: 10.52rem;
+  width: 15.2rem;
+}
+.header_title {
+  color: var(--lineslight);
+  display: flex;
+  flex-direction: column;
+}
+
+.header_items {
+  display: flex;
+}
+
+.header_items ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 2rem;
+  color: var(--lineslight);
+  margin-right: 4rem;
+}
+
+.contact_btn {
+  cursor: pointer;
+  /* margin-left: 4rem;
+  margin-right: 4rem; */
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  padding: 0.75rem 3rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  transition: all 0.5s ease-in-out;
+}
+
+.contact_btn:hover {
+  box-shadow: var(--mainpurplehover) 0px 8px 7rem;
+  background-color: var(--mainpurplehover);
+  /* border-radius: clamp(0.75rem, 2vw, 1.5rem); */
+}
+
+.contact_btn:active {
+  color: var(--lineslight);
+  background-color: var(--violet);
+  /* border-radius: clamp(0.75rem, 2vw, 1.5rem); */
+}
+
+.headerContainer ul li {
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: all 0.5s ease-in-out;
+  background-color: transparent;
+  border-radius: clamp(0.75rem, 2vw, 1.5rem);
+}
+
+.headerContainer ul li:hover {
+  color: var(--mainpurplehover);
+}
+
+.headerContainer ul li:active {
+  box-shadow: var(--mainpurplehover) 0px 8px 7rem;
+  backdrop-filter: drop-shadow(4px 4px 10px var(--mainpurplehover));
+  color: var(--lineslight);
+}
+
+.activeHeading {
+  background-color: var(--violet);
+}

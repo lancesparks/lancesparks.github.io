@@ -1,0 +1,74 @@
+.portfolio {
+  height: 60vh;
+  padding: 5rem 10rem;
+  display: grid;
+  background-color: var(--darkblue);
+  color: var(--lineslight);
+  justify-content: center;
+  text-align: center;
+}
+
+.portfolioContainer {
+  display: grid;
+  text-align: center;
+  grid-template-rows: 1fr 4fr;
+}
+
+.portfolioItemContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.portfolioItem {
+  cursor: pointer;
+}
+
+.portfolioItems {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 1rem;
+}
+
+.portfolioImage {
+  height: 27rem;
+  width: 28rem;
+}
+
+.portfolioDescription {
+  position: absolute;
+  font-size: var(--headerL);
+  line-height: 2.3rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  transform: translateY(0);
+  top: 0;
+  transition: all 0.4s ease-in-out;
+  opacity: 0;
+  color: var(--lineslight);
+}
+
+.portfolioItemContainer:hover .portfolioDescription {
+  transform: translateY(-50%);
+  top: 40%;
+  opacity: 2;
+  z-index: 1;
+}
+
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: var(--darkblue);
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+}
+
+.portfolioItemContainer:hover .overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: var(--darkblue);
+  opacity: 0.7;
+}
