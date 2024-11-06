@@ -31,36 +31,32 @@ export default function CustomizedTimeline() {
             </Typography>
 
             <Typography sx={{ fontSize: 12 }}>
-              <i className={classes.iconLeft}>&#11044;</i> Led the front-end
-              development for an enterprise project that corporate users utilize
-              to create and send tv commercial instructions.
+              Led the front-end development for an enterprise project that
+              corporate users utilize to create and send tv commercial
+              instructions.
             </Typography>
             <Typography sx={{ fontSize: 12 }}>
-              <i className={classes.iconLeft}>&#11044;</i>The new user interface
-              has led business teams to report an 80% reduction in processing
-              time and a 24% reduction in user errors
+              The new user interface has led business teams to report an 80%
+              reduction in processing time and a 24% reduction in user errors.
             </Typography>
             <Typography sx={{ fontSize: 12 }}>
-              <i className={classes.iconLeft}>&#11044;</i> Utilized various
-              technologies including Angular 12+, Ag-Grid, Typescript, SCSS,
-              CSS, HTML, Cypress, and Jest.
+              Utilized various technologies including Angular 12+, Ag-Grid,
+              Typescript, SCSS, CSS, HTML, Cypress, and Jest.
             </Typography>
             <Typography sx={{ fontSize: 12 }}>
-              <i className={classes.iconLeft}>&#11044;</i> Implemented NG-RX to
-              handle state management and utilize data from multiple APIs.
+              Implemented NG-RX to handle state management and utilize data from
+              multiple APIs.
             </Typography>
             <Typography sx={{ fontSize: 12 }}>
-              <i className={classes.iconLeft}>&#11044;</i> Maintained consistent
-              test coverage utilizing Jest and Cypress.
+              Maintained consistent test coverage utilizing Jest and Cypress.
             </Typography>
             <Typography sx={{ fontSize: 12 }}>
-              <i className={classes.iconLeft}>&#11044;</i> Coordinated closely
-              with business teams to assess and implement business requirements.
+              Coordinated closely with business teams to assess and implement
+              business requirements.
             </Typography>
             <Typography sx={{ fontSize: 12 }}>
-              <i className={classes.iconLeft}>&#11044;</i> Handled site security
-              by implementing route guards that forwarded unsigned requests to
-              an SSO login.
+              Handled site security by implementing route guards that forwarded
+              unsigned requests to an SSO login.
             </Typography>
           </TimelineContent>
         </TimelineItem>
@@ -84,12 +80,11 @@ export default function CustomizedTimeline() {
             <Typography sx={{ fontSize: 12 }}>
               Successfully led efforts to create a proof-of-concept program that
               tracked movement patterns, this led to securing funding for a new
-              department <i className={classes.iconRight}>&#11044;</i>
+              department.
             </Typography>
             <Typography sx={{ fontSize: 12 }}>
               Created the end-to-end development of the data dashboard for the
-              Future-Scape traffic division with the following technologies
-              <i className={classes.iconRight}>&#11044;</i>
+              Future-Scape traffic division with the following technologies.
             </Typography>
           </TimelineContent>
         </TimelineItem>
@@ -111,13 +106,13 @@ export default function CustomizedTimeline() {
             </Typography>
 
             <Typography sx={{ fontSize: 12 }}>
-              <i className={classes.iconLeft}>&#11044;</i> Developed and
-              executed complex SQL queries to analyze financial data.
+              Developed and executed complex SQL queries to analyze financial
+              data.
             </Typography>
             <Typography sx={{ fontSize: 12 }}>
-              <i className={classes.iconLeft}>&#11044;</i> Demonstrated
-              problem-solving skills by resolving various existing and new bugs,
-              reducing system downtime, and improving overall efficiency.
+              Demonstrated problem-solving skills by resolving various existing
+              and new bugs, reducing system downtime, and improving overall
+              efficiency.
             </Typography>
           </TimelineContent>
         </TimelineItem>
@@ -137,8 +132,7 @@ export default function CustomizedTimeline() {
               Bachelor of Arts
             </Typography>
             <Typography sx={{ fontSize: 14 }}>
-              <i className={classes.iconLeft}>&#11044;</i> University of Central
-              Florida, Orlando FL
+              University of Central Florida, Orlando FL
             </Typography>
           </TimelineContent>
         </TimelineItem>
@@ -156,7 +150,6 @@ export default function CustomizedTimeline() {
             </Typography>
             <Typography sx={{ fontSize: 14 }}>
               University of Central Florida, Orlando FL
-              <i className={classes.iconRight}>&#11044;</i>
             </Typography>
           </TimelineContent>
         </TimelineItem>

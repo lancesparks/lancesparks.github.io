@@ -23,3 +23,17 @@ p {
   margin-left: 5px;
   vertical-align: top;
 }
+
+.timeLineItem {
+  font-size: var(--headerS);
+  margin-left: 1rem;
+  list-style: disc outside none;
+  list-style-image: none;
+  display: list-item;
+}
+
+.timeLineItemCircle {
+  font-size: 6px;
+  font-style: normal !important;
+  margin-right: 5px;
+}
