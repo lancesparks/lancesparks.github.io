@@ -28,7 +28,7 @@ const About = ({ activeSection }: AboutProps) => {
               </Carousel>
             </span>
 
-            <p className={`${classes.aboutMe} headingSmall`}>
+            <p className={`${classes.aboutMeText} headingSmall`}>
               I am a skilled front-end developer with expertise in a wide range
               of technologies, including Angular, React, JavaScript, TypeScript,
               Node.js, SCSS, CSS, MongoDB, and SQL. My passion for

@@ -1,6 +1,6 @@
 .contact {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 1fr;
 
   height: 100vh;
   background-color: var(--darkblue);
@@ -13,6 +13,7 @@
 
 .contactLeftImg {
   height: 100%;
+  object-fit: cover;
 }
 
 .contactLeftOverlay {
@@ -26,7 +27,7 @@
 
 .contactRight {
   display: grid;
-  padding: 5rem 10rem;
+  padding: 5rem 2rem;
 }
 
 .contactForm {
@@ -60,6 +61,7 @@
 
 .myContact {
   display: flex;
+  flex-direction: column;
 }
 
 .myContactSectionHeader {
@@ -71,10 +73,6 @@
 .myContactSection {
   display: flex;
   align-items: center;
-}
-
-.myContactSection:not(:first-child) {
-  margin-left: 2rem;
 }
 
 .myContactSectionIcon {
@@ -129,4 +127,19 @@ h1,
 p,
 input {
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+@media (min-width: 1024px) {
+  .myContact {
+    display: flex;
+    flex-direction: row;
+  }
+  .myContactSection:not(:first-child) {
+    margin-left: 2rem;
+  }
+
+  .contact {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
 }
