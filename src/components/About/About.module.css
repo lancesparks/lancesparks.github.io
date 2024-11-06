@@ -27,8 +27,9 @@ p {
 .aboutMe {
   display: flex;
   justify-content: center;
-  margin: 5rem 2rem 0rem 0rem;
-  margin-left: 2rem;
+  justify-self: center;
+  width: 50%;
+  margin: 5rem 2rem;
 }
 
 .images {
