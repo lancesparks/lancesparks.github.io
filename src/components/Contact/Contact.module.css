@@ -14,6 +14,7 @@
 .contactLeftImg {
   height: 100%;
   object-fit: cover;
+  max-height: 105vh;
 }
 
 .contactLeftOverlay {
@@ -96,7 +97,7 @@ input {
   box-shadow: none;
   outline: none;
   padding: 1rem 2rem;
-  width: 60%;
+  width: 90%;
 }
 
 input:focus-within {
@@ -141,5 +142,9 @@ input {
   .contact {
     display: grid;
     grid-template-columns: 1fr 2fr;
+  }
+
+  input {
+    width: 60%;
   }
 }

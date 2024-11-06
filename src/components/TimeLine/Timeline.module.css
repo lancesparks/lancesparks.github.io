@@ -6,3 +6,20 @@
   width: 100%;
   margin-bottom: 2rem;
 }
+
+p {
+}
+
+.iconLeft {
+  font-size: 6px;
+  font-style: normal !important;
+  margin-right: 5px;
+  vertical-align: top;
+}
+
+.iconRight {
+  font-size: 6px;
+  font-style: normal !important;
+  margin-left: 5px;
+  vertical-align: top;
+}
