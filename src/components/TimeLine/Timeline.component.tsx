@@ -40,12 +40,11 @@ export default function CustomizedTimeline() {
               reduction in processing time and a 24% reduction in user errors.
             </Typography>
             <Typography sx={{ fontSize: 12 }}>
-              Utilized various technologies including Angular 12+, Ag-Grid,
+              Utilized various technologies including React, Redux, React Query,
               Typescript, SCSS, CSS, HTML, Cypress, and Jest.
             </Typography>
             <Typography sx={{ fontSize: 12 }}>
-              Implemented NG-RX to handle state management and utilize data from
-              multiple APIs.
+              Implemented state management to utilize data from multiple APIs.
             </Typography>
             <Typography sx={{ fontSize: 12 }}>
               Maintained consistent test coverage utilizing Jest and Cypress.
