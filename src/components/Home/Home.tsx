@@ -1,6 +1,5 @@
 import classes from "./Home.module.css";
 import llama from "../../assets/llamas.jpg";
-import github from "../../assets/github-mark.svg";
 import linkedIn from "../../assets/linkedin.svg";
 interface HomeProps {
   handleScrollTo: any;
