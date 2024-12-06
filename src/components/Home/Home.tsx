@@ -26,7 +26,7 @@ const Home = ({ handleScrollTo }: HomeProps) => {
           <li onClick={() => handleScrollTo("contact")}>Contact</li>
         </ul>
         <ul className={classes.homeSocial}>
-          <li>
+          {/* <li>
             <a href="https://github.com/lancesparks" target="_blank">
               <img
                 className={`${classes.homeSocialLink} ${classes.mlm}  ${classes.mrm}`}
@@ -34,7 +34,7 @@ const Home = ({ handleScrollTo }: HomeProps) => {
                 alt="github"
               />
             </a>
-          </li>
+          </li> */}
           <li>
             <a href="https://www.linkedin.com/in/lance-sparks/" target="_blank">
               <img
