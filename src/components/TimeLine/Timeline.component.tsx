@@ -31,9 +31,8 @@ export default function CustomizedTimeline() {
             </Typography>
 
             <Typography sx={{ fontSize: 12 }}>
-              Led the front-end development for an enterprise project that
-              corporate users utilize to create and send tv commercial
-              instructions.
+              Led the front-end effort to modernize how Comcast sends their TV
+              commercials instructions to partner networks.
             </Typography>
             <Typography sx={{ fontSize: 12 }}>
               The new user interface has led business teams to report an 80%
