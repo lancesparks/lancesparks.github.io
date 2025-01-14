@@ -35,26 +35,35 @@ export default function CustomizedTimeline() {
               commercials instructions to partner networks.
             </Typography>
             <Typography sx={{ fontSize: 12 }}>
-              The new user interface has led business teams to report an 80%
-              reduction in processing time and a 24% reduction in user errors.
+              Developed and maintained responsive, high-performance user
+              interfaces using Angular, TypeScript, SCSS, CSS, and HTML,
+              contributing to an 80% reduction in processing time.
             </Typography>
             <Typography sx={{ fontSize: 12 }}>
-              Utilized various technologies including React, Redux, React Query,
-              Typescript, SCSS, CSS, HTML, Cypress, and Jest.
+              Collaborated with UX designers to translate wireframes into
+              functional web pages, and with back-end developers to integrate
+              APIs and services seamlessly.
             </Typography>
             <Typography sx={{ fontSize: 12 }}>
-              Implemented state management to utilize data from multiple APIs.
+              Implemented state management using NgRx to handle data from
+              multiple APIs, ensuring seamless data flow within the application.
             </Typography>
             <Typography sx={{ fontSize: 12 }}>
-              Maintained consistent test coverage utilizing Jest and Cypress.
+              Utilized Docker Compose, Git, and NPM to streamline local
+              development workflows and ensure efficient version control.
             </Typography>
             <Typography sx={{ fontSize: 12 }}>
-              Coordinated closely with business teams to assess and implement
-              business requirements.
+              Maintained high-quality code by enforcing consistent test coverage
+              through Jest and Cypress, improving code reliability.
             </Typography>
             <Typography sx={{ fontSize: 12 }}>
-              Handled site security by implementing route guards that forwarded
-              unsigned requests to an SSO login.
+              Enhanced site security by integrating route guards, directing
+              unauthorized requests to a secure SSO login.
+            </Typography>
+            <Typography sx={{ fontSize: 12 }}>
+              Collaborated with cross-functional teams, including product
+              managers and designers, to define and execute the development
+              roadmap.
             </Typography>
           </TimelineContent>
         </TimelineItem>
@@ -76,13 +85,18 @@ export default function CustomizedTimeline() {
             </Typography>
 
             <Typography sx={{ fontSize: 12 }}>
-              Successfully led efforts to create a proof-of-concept program that
-              tracked movement patterns, this led to securing funding for a new
-              department.
+              Led the development of a proof-of-concept program that analyzed
+              movement patterns, securing funding for a new department by
+              demonstrating innovative front-end solutions.
             </Typography>
             <Typography sx={{ fontSize: 12 }}>
-              Created the end-to-end development of the data dashboard for the
-              Future-Scape traffic division with the following technologies.
+              Designed and developed a responsive data dashboard using React and
+              TypeScript, providing real-time insights for the Future-Scape
+              traffic division.
+            </Typography>
+            <Typography sx={{ fontSize: 12 }}>
+              Collaborated with management and stakeholders to gather
+              requirements and translate them into functional web interfaces.
             </Typography>
           </TimelineContent>
         </TimelineItem>
@@ -104,13 +118,13 @@ export default function CustomizedTimeline() {
             </Typography>
 
             <Typography sx={{ fontSize: 12 }}>
-              Developed and executed complex SQL queries to analyze financial
-              data.
+              Developed interactive dashboards and front-end components to
+              visualize complex financial data, enhancing decision-making
+              processes.
             </Typography>
             <Typography sx={{ fontSize: 12 }}>
-              Demonstrated problem-solving skills by resolving various existing
-              and new bugs, reducing system downtime, and improving overall
-              efficiency.
+              Identified and resolved front-end bugs, reducing system downtime
+              and improving the application's performance and user experience.
             </Typography>
           </TimelineContent>
         </TimelineItem>
