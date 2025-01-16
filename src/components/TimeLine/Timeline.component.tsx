@@ -36,7 +36,7 @@ export default function CustomizedTimeline() {
             </Typography>
             <Typography sx={{ fontSize: 12 }}>
               Developed and maintained responsive, high-performance user
-              interfaces using Angular, TypeScript, SCSS, CSS, and HTML,
+              interfaces using React, TypeScript, SCSS, CSS, and HTML,
               contributing to an 80% reduction in processing time.
             </Typography>
             <Typography sx={{ fontSize: 12 }}>
@@ -45,7 +45,7 @@ export default function CustomizedTimeline() {
               APIs and services seamlessly.
             </Typography>
             <Typography sx={{ fontSize: 12 }}>
-              Implemented state management using NgRx to handle data from
+              Implemented state management using Redux to handle data from
               multiple APIs, ensuring seamless data flow within the application.
             </Typography>
             <Typography sx={{ fontSize: 12 }}>
